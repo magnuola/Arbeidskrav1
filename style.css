@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    background-color: darkblue;
+    position: fixed;
+    z-index: 12;
+}
+nav{
+    width: 100%;
+    margin:0 auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: 'Titillium Web';
+}
+li a:hover {
+    background-color:#555;
+    color: white;
+}
+
+.menu li {
+    float:left;
+    margin-left: 20px;
+    list-style: circle; 
+    background-color: lightblue;
+}
+
+
+
+h1 {
+    font-family:'Titillium Web';
+    color: yellow;
+    background-color: darkblue;
+    text-align: center;
+    width: 100%;
+
+}
+ h2 {
+    font-family: 'Titillium Web';
+     color: yellow;
+    background-color: darkblue;
+     width: 100%;
+     padding-left: 20px;
+}
+
+#hjem { 
+    font-family: 'Titillium Web';
+    color: white;
+    background-color: darkblue;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 20px;
+    background-image: url(Bilde%20kontaktinformasjon.jpeg);
+}
+
+#kvalifikasjoner {
+    font-family: 'Titillium Web';
+    color: white;
+    background-color: darkblue; 
+    padding-left: 20px;
+    width: 100%;
+}
+
+#arbeidserfaring1 {
+    font-family: 'Titillium Web'; 
+    color: white;
+    background-color: darkblue;
+    background-image: url(Bilde%20laptop.jpeg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-left: 20px;
+}
+
+#arbeidserfaring2 {
+    font-family: 'Titillium Web'; 
+    color: white;
+    background-color: darkblue;
+    background-image: url(Bilde%20epler%20undervisning.jpeg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-left: 20px;
+}
+
+
+#utdanning {
+    font-family: 'Titillium Web';
+    color: white;
+    background-color: darkblue;
+    background-image: url(bilde%20utdanning.jpeg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-left: 20px;
+}
+
+#datakunnskaper {
+    font-family: 'Titillium Web';
+    color: white;
+    background-color: darkblue;
+    background-image: url(Logo%20Adobe%20Creative%20Cloud.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    padding-left: 20px;
+}
+
+#sprak {
+    font-family: 'Titillium Web';
+    background-color: darkblue;
+    width: 100%;
+}
+
+table {
+  font-family: 'Titillium Web';
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: blueviolet;
+}
+
+#interesser {
+    font-family: 'Titillium Web';
+    color: white;
+    background-color: darkblue;
+    background-image: url(Bilde%20Sats.jpeg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.container {
+    font-family: 'Titillium Web';
+    color: yellow;
+}
+
+ @media screen and (max-width: 800px)
+    .main, .right{
+        witdth: 100%;
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
